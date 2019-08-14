@@ -1,0 +1,206 @@
+@font-face { font-family: fontb;
+    src: url('../fonts/DIN Next LT W23 Bold.ttf'); }
+
+@font-face { font-family: fontBlack;
+    src: url('../fonts/DIN Next LT W23 Black.ttf'); }
+
+
+@font-face { font-family: fontR;
+    src: url('../fonts/DIN Next LT W23 Regular.ttf'); }
+
+@font-face { font-family: fontM;
+    src: url('../fonts/DIN Next LT W23 Medium.ttf'); }
+
+
+
+
+body{
+    padding-top: 20px;
+    font-family: fontR;
+}
+
+
+
+
+/* review */
+
+.rev{
+    background-color:#317588;
+     height:620px;
+    border-radius: 20px;
+}
+
+.showq{
+    text-align: right;
+    /*float: right;*/
+    /*padding-left:380px;*/
+    /*padding-bottom: 0px;*/
+}
+
+.showq p{
+ color: white;
+    font-size: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family:fontR;
+}
+    
+.showq p #qaa{
+    font-size: 35px;
+    font-family:fontM;
+    
+    
+}
+
+
+table{
+    color: white;
+    width:92%;
+    text-align: center;
+    font-family: fontR;
+    float: right;
+    margin-right: 66px;
+    
+    
+}
+.table{
+    
+    padding: 20px;
+    padding-top: 12px;
+    padding-right:20px;
+    bottom: 22px;
+    
+}
+
+td{
+    padding: 15px;
+   background-color: #297287;
+}
+
+.tr1 td{
+    background-color: #317588;
+    font-size: 25px;
+    padding: 0px;
+}
+
+
+.d1{
+    background-color: #4390A5;
+}
+
+
+td:nth-child(3){
+    text-align: right;
+    padding-right: 40px;
+    font-size: 15px;
+}
+
+
+.kh{
+    padding-bottom: 16px;
+}
+
+
+
+
+
+    
+/*end review */
+
+
+
+/* all*/
+
+
+.logo{
+    background-color: white;
+    float: left;
+    left: 44px;
+    bottom: 14px;
+   /* border-bottom-left-radius: 20px;*/
+    /*position:relative;*/
+    padding: 30px;
+    padding-left: 10px;
+    border-radius: 20px;
+
+}
+
+.logo img{
+    padding-left: 20px;
+
+}
+
+
+
+.finshm{
+   padding-left: 140px;
+      color:white;
+    font-size: 15px;
+}
+
+
+.req{
+ 
+    color: #317588;
+     font-size: 18px;
+    padding-left: 200px;
+    
+}
+
+
+
+.req button:hover{
+    background-color: #317588;
+      color:white;
+}
+
+
+
+#cnfbtn span{
+    padding-right: 80px;
+
+}
+#cnfbtn{
+    border-radius: 14px;
+    width: 236px;
+    height: 49px;
+   
+    color:  #317588;
+    background-color: white;
+    padding: 10px;
+}
+
+
+.pf{
+    padding-left: 2px;
+}
+
+/*end all*/
+
+
+
+
+@media(max-width:992px){
+    
+    
+    .req{
+ 
+    
+    
+    padding-left: 20px;
+    
+}
+    
+    
+}
+
+
+
+@media(max-width:768px){
+    
+    .rev{
+        height: 860px;
+    }
+}
+
+

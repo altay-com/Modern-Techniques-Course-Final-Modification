@@ -1,0 +1,52 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css"  href="animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/viewAnswer.css">
+    <title>View Answer </title>
+</head>
+    <body>
+         <div class="container">
+          <div class="row">
+            <div class="rev animated bounceInLeft">
+            <div class="logo col-lg-4 col-lg-offset-8  col-md-offset-7 col-sm-offset-6 col-xs-offset-1">
+           <img src="imags/logo.png"  height="39px">
+            </div>
+                <div class="trueA col-lg-12">
+                   <div class="showq  col-lg-3 col-md-4 col-sm-5 col-xs-8 ">
+                  الاجابات الصحيحة
+                    </div>
+                </div>
+                <div class="table col-lg-12">
+                <div id="table">
+                <table>
+  <tr class="tr2">
+    <td class="d1">{{ans1}}</td>
+      <td  style="text-align: right;"><img src="imags/re1.png" >{{q1}}</td>
+  </tr>
+  <tr class="tr3">
+    <td >{{ans2}}</td>
+    <td  style="text-align: right;" class="d1" ><img src="imags/re2.png" >{{q2}} </td>
+  </tr>
+                    <tr class="tr6">
+    <td class="d1">{{ans3}}</td>
+
+    <td  style="text-align: right;">  <img src="imags/re3.png" > {{q3}} </td>
+  </tr>
+     <tr class="tr5">
+    <td>{{ans4}}</td>
+
+    <td  style="text-align: right;" class="d1" style="width:85%"><img src="imags/re4.png" > {{q4}}  </td>
+  </tr>
+</table>
+</div>
+               </div>
+           </div>
+         </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.common.dev.js" charset="utf-8"></script>
+        <script src="js/entities.js" charset="utf-8"></script>
+        <script src="js/viewAnswer.js" charset="utf-8"></script>
+   </body>
+</html>

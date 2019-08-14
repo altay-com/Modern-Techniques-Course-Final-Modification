@@ -1,0 +1,766 @@
+@font-face { font-family: fontb;
+    src: url('../fonts/DIN Next LT W23 Bold.ttf'); }
+
+@font-face { font-family: fontBlack;
+    src: url('../fonts/DIN Next LT W23 Black.ttf'); }
+
+
+@font-face { font-family: fontR;
+    src: url('../fonts/DIN Next LT W23 Regular.ttf'); }
+
+@font-face { font-family: fontM;
+    src: url('../fonts/DIN Next LT W23 Medium.ttf'); }
+
+
+
+
+
+
+
+
+body{
+    margin-top: 20px;
+    font-family: fontR;
+
+}
+
+.all{
+
+    background-color:#955BA5;
+    
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-top: 40px;
+
+
+
+}
+
+
+
+
+
+
+
+.ln{
+    background-color: #955BA5;
+    border-top-left-radius: 30px;
+
+}
+
+.logo{
+    background-color: white;
+    float: right;
+    left: 15px;
+   
+
+    padding: 28px;
+    padding-left: 40px;
+    border-bottom-left-radius: 30px;
+    background-color: white;
+
+}
+
+.logo img{
+    padding-left: 34px;
+    margin-bottom: 6px;
+
+
+}
+
+ul{
+
+    display: block;
+    margin-top: 10px;
+
+
+
+}
+
+
+ul #ci {
+    width: 34px;
+    height: 34px;
+
+    border-radius: 34px;
+   
+    padding-top: 6px;
+     padding-left:14px;
+    font-size: 20px;
+    font-family: GE SS;
+
+    color: #955BA5;
+
+}
+
+li a{
+    color:#955BA5;
+    text-decoration: none;
+
+}
+ul li{
+    background-color: white;
+    float: left;
+    list-style-type: none;
+}
+
+ul #line{
+   
+    height: 4px;
+    width: 128px;
+    margin-top: 14px;
+}
+
+.nav{
+    padding-left:80px;
+    padding-top: 30px;
+}
+
+
+
+.imgs img{
+    width:320px ;
+    height:350px;
+}
+
+
+
+#ci3{
+    top: 140px;
+    left: 80x;
+}
+
+
+#ci4{
+    top: 180px;
+    right: 75px;
+}
+
+#ci1{
+    top: 65px;
+    left: 35px;
+}
+
+
+
+
+#ci2{
+    top: 165px;
+    left:20px;
+}
+
+
+
+.line{
+    float: left;
+    padding-top: 120px;
+    padding-left: 21px;
+}
+
+
+
+
+.questext p{
+    font-size: 25px;
+    text-align: right;
+    color: white;
+    width: 580px;
+    padding-right: 10px;
+
+}
+
+.questext{
+    font-size: 18;
+    color: white;
+}
+
+
+.questext P{
+    padding-bottom: 60px;
+}
+
+
+
+.ccho{
+    border: 1px white solid;
+    border-radius: 14px;
+    width: 236px;
+ 
+    padding: 10px;
+cursor: pointer;
+    text-align: center;
+    
+}
+
+
+.ccho:hover {
+    color: #955BA5;
+    background-color: white;
+}
+
+.ccho:focus {
+    color: #955BA5;
+    background-color: white;
+}
+
+
+.chrig{
+    float: right;
+}
+
+
+.chc1,.chc2{
+    margin-bottom: 25px;
+}
+
+
+.chc1,.chc3{
+    margin-left: 10px;
+}
+
+.towicchb{
+    margin-top: 0px;
+}
+
+
+
+.ccho span{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 6px;
+    float: right;
+
+}
+
+
+
+
+#cnfbtn{
+    border-radius: 14px;
+    width: 236px;
+    height: 49px;
+    margin-top:60px;
+    margin-left: 30px;
+    color: #955BA5;
+    background-color: white;
+    padding: 10px;
+}
+
+
+#cnfbtn:hover{
+color: white;
+    background-color: #955BA5;
+   
+}
+
+#cnfbtn:focus{
+color: white;
+    background-color: #955BA5;
+}
+
+
+
+
+#cnfbtn span{
+    padding-right: 80px;
+
+}
+
+
+
+
+
+
+/*an*/
+
+
+
+
+
+.imgs{
+
+}
+
+.nav{
+    animation-delay: 0.5s;
+}
+
+.questext{
+    animation-delay: 0.5s;
+}
+
+.chc1{
+    animation-delay: 0.6s;
+}
+
+
+.chc2{
+    animation-delay: 0.7s;
+}
+
+.chc3{
+    animation-delay: 0.8s;
+}
+
+.chc4{
+    animation-delay: 0.9s;
+}
+
+.bbb{
+    animation-delay: 1s;
+}
+
+
+#ci1{
+     animation-delay: 3s ;
+    animation-duration:10s;
+}
+
+#ci2{
+     animation-delay: 3.5s;
+    animation-duration:10s;
+}
+
+#ci3{
+     animation-delay: 4s;
+    animation-duration:10s;
+}
+
+#ci4{
+     animation-delay: 4.5s;
+    animation-duration:10s;
+}
+
+
+
+
+
+
+/*an*/
+
+
+
+
+
+/*media*/
+
+
+
+@media(max-width:1200px){
+
+
+    .all{
+        height:500px;
+    }
+
+    ul #line{
+        width: 60px;
+    }
+
+
+    .imgsq{
+        float: left;
+    }
+
+    .imgs img{
+        width: 320px;
+        height: 358px;
+    }
+
+    .imgs{
+        top: 20px;
+    }
+
+    .nav{
+        padding-left: 0px;
+        padding-right: 2px;
+
+    }
+
+
+    .line{
+        float: right;
+        padding-right: 80px;
+        padding-top: 46px;
+    }
+
+
+
+
+    .ccho{
+
+        width: 200px;
+     
+        padding:6px;
+
+
+    }
+
+    .towiccht{
+        float: right;
+        left: 20px;
+        
+    }
+    
+     .towicchb{
+        float: right;
+         margin-top: 10px;
+          left: 20px;
+    }
+    
+
+
+    .chc1,.chc2{
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+
+    
+    .chc1,.chc3{
+          margin-left: 0px;
+        
+    }
+    
+
+ 
+    .chc3,.chc4{
+         margin-top: 0px;
+    }
+    
+    
+    .chc2,.chc4{
+        margin-left: 10px;
+    }
+    
+ 
+   
+
+
+    .questext P{
+        padding-bottom: 50px;
+    }
+
+
+
+    #cnfbtn{
+
+        width: 200px;
+        height: 46px;
+        margin-left: 35px;
+        margin-top: 40px;
+
+    }
+
+    .im img{
+        width: 100px;
+        height: 101px;
+    }
+
+    .im{
+        padding-left: 60px;
+    }
+
+
+
+    #ci3{
+
+        float: left;
+    }
+
+
+    #ci4{
+
+        float: left;
+
+        left: 20px;
+        top:160px;
+
+    }
+
+    #ci1{
+
+
+
+        float: left;
+        left: 150px;
+        top: 50px;
+    }
+
+
+
+
+    #ci2{
+
+        float: left;
+        left: 140px;
+    }
+
+
+
+
+    #cnfbtn span{
+        padding-right: 40px;
+
+    }
+
+
+
+}
+
+
+
+
+
+@media(max-width:992px){
+    ul #line{
+        width: 3px;
+    }
+    .all{
+        height: 1394px;
+        
+    }
+
+    .nav{
+        padding-left:0px;
+       
+    }
+
+
+    .im img{
+        width: 130px;
+        height: 131px;
+        
+    }
+    
+    
+    
+    .questext p{
+    font-size: 32px;
+    text-align: right;
+    color: white;
+
+}
+
+.questext{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+    
+    
+    
+    
+   .ccho{
+ 
+       
+       
+    width: 80%;
+  
+    padding: 10px;
+       font-size: 24px;
+       
+       
+
+} 
+    
+    
+    .towicchb{
+        margin-top: 0px;
+    }
+    
+    .chc1{
+        margin-top: 20px;
+    }
+
+    .chc1,.chc3{
+         margin-left: 20%;
+        float: right;
+    }
+    
+    
+    .chc2,.chc4{
+margin-left: 20%;
+ float: right;
+    
+    } 
+
+
+    
+    
+    .chc3,.chc4,.chc2{
+         margin-top: 36px;
+    }
+   
+    
+
+    .im{
+        padding-left: 20px;
+           text-align: center;
+           padding-bottom: 60px;
+
+    }
+
+    .numberques img{
+        width: 110px;
+        height: 110px;
+
+    }
+
+
+
+
+
+    #ci3{
+        left: 0px;
+        top: 0px;
+        float: left;
+    }
+
+
+    #ci4{
+        top: 0px;
+        left: 0px;
+        float: left;
+    }
+
+    #ci1{
+        top: 0px;
+        left: 0px;
+        float: left;
+    }
+
+
+
+
+    #ci2{
+        top:0px;
+        left:0px;
+        float: left;
+    }
+
+
+    .line{
+        float: right;
+     
+        padding-right: 86px;
+        padding-top: 62px;
+    }
+
+    .line img{
+        height: 460px;
+    }
+
+    
+     #cnfbtn{
+
+        width: 70%;
+        height: 70px;
+      /* margin-left: 46px;*/
+         float: right;
+
+    }
+
+    .imgbott{
+        margin-top: 100px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    ul #line{
+        width: 40px;
+    }
+
+    .all{
+        border-top-right-radius: 0px;
+        height: 1620px;
+
+
+    }
+
+
+    .numberques img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .chc1,.chc2{
+        margin-bottom: 0px;
+    }
+    
+    
+      .chc1,.chc3{
+        margin-bottom: 0px;
+           margin-left: 16px;
+        float: right;
+    }
+    
+    
+ 
+    
+    .chc2{
+        margin-top: 16px;
+    }
+    
+    chc3,chc4{
+         margin-top: 18px;
+    }
+    
+
+    .line{
+        float: right;
+        padding-right:80px;
+        padding-top: 80px;
+    }
+
+    .numberques{
+        margin-top: 20px;
+    }
+    
+    
+     .numberques img{
+    width: 80px;
+         height: 80px;
+    }
+
+
+    .im img{
+        width: 100px;
+        height: 101px;
+    }
+
+
+
+    #cnfbtn{
+        margin-top: 30px;
+        margin-left: 180px
+    }
+    
+    
+    
+    .imgbbtt{
+        height: 300px;
+    }
+    
+}
+
+
+
+
+
+
+
+
